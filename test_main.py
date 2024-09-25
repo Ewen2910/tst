@@ -21,3 +21,6 @@ def test_sub3n3():
 
 def test_sub3nm3():
     assert sub(3,-3) == 6
+
+def test_sub3nm1():
+    assert sub(3,-1) == 4
