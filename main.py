@@ -1,8 +1,10 @@
 import sys
 
 def add(nbr,nbrt) -> int:
-
     return nbr+nbrt
+
+def sub(nbr,nbrt) -> int:
+    return nbr-nbrt
 
 def main() -> int:
 
