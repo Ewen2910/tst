@@ -1,4 +1,4 @@
-from main import add
+from main import add,sub
 
 
 def test_add1n1():
@@ -14,10 +14,10 @@ def test_addm3nm3():
     assert add(-3,-3) == -6
 
 def test_subm3nm3():
-    assert add(-3,-3) == 0
+    assert sub(-3,-3) == 0
 
 def test_sub3n3():
-    assert add(3,3) == 0
+    assert sub(3,3) == 0
 
 def test_sub3nm3():
-    assert add(3,-3) == 6
+    assert sub(3,-3) == 6
